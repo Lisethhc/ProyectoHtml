@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CDN de font-awesome -->
+    <!-- CDN son las siglas para Content Delivery Network (Red de Distribución de Contenidos) y, tal como su nombre lo indica, se trata de una red de servidores encargada de distribuir contenidos en Internet de manera más rápida y eficiente gracias a una serie de POPs (Puntos de Presencia) situados alrededor del mundo. -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Mi portafolio</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="overlay overlay-lg">
+          <img src="img/shapes/square.svg" alt="" class="shape square"/>
+          <img src="img/shapes/circle.svg" alt="" class="shape circle"/>
+          <img src="./img/shapes/half-circle.svg" class="shape half-circle1" alt=""/>
+          <img src="./img/shapes/half-circle.svg" class="shape half-circle2" alt=""/>
+          <img src="./img/shapes/x.svg" class="shape xshape" alt="" />
+          <img src="./img/shapes/wave.svg" class="shape wave wave1" alt="" />
+          <img src="./img/shapes/wave.svg" class="shape wave wave2" alt="" />
+          <img src="./img/shapes/triangle.svg" class="shape triangle" alt="" />
+          <!--<img src="./img/shapes/circles.svg" class="circles" alt="" />-->
+          <img src="./img/shapes/points1.svg" class="points points1" alt="" />
+
+        </div>
+
+        <!-- Barra de navegación principal -->
+        <nav>
+          <div class="container">
+            <div class="logo">
+              <a href="index.html">L<span>L</span></a>
+            </div>
+            <div class="links">
+              <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#portfolio">Portafolio</a></li>
+                <li><a href="#about">Acerca de</a></li>
+                <li><a href="#testimonials">Testimonios</a></li>
+                <li><a href="#contact">Contácto</a></li>
+                <li><a href="https://wa.me/+3008852810" target="_blank" class="active">WhatSapp</a></li>
+              </ul>
+            </div>
+            <!-- Menu hamburguesa para agregar en movil -->
+            <div class="hamburger-menu">
+              <div class="bar"></div>
+            </div>
+          </div>
+        </nav>
+        <!-- Contenido para el header -->
+        <div class="header-content">
+          <div class="container grid-2">
+            <div class="column-1">
+              <h1 class="header-title">Liseth <span>Herazo</span></h1>
+              <p class="text">
+                Hola soy Liseth, diseñadora y desarrolladora web, con 10 años de experiencia en la programación de Softwares, Paginas Web, Apps, entre otros. Un gusto poder servirte.
+              </p>
+              <a href="https://drive.google.com/file/d/1wyBO84I-sT232QCHVPhDD_xEJx1ncluD/view?usp=sharing" download target="_blank">
+                <button class="btn">Descargar CV</button>
+              </a>  
+              
+            </div>
+            <div class="column-2 image">
+              <img src="./img/shapes/points2.svg" alt="" class="points points2">
+              <img src="./img/WhatsApp Image 2023-07-17 at 7.07.13 PM-PhotoRoom.png-PhotoRoom.png" alt="Foto Liseth Herazo Desarrolladora WEB" class="img-element z-index">
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- Sección de servicios -->
+
+      <section class="services section" id="services">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="lo que hago">Servicios</h3>
+            <p class="text">
+              Hacemos realidad tus proyectos con los siguientes servicios que se adecúen a lo que necesitas: Diseño Web, Desarrollo Web, Desarrollo de Apps
+            </p>
+          </div>
+
+          <div class="cards">
+            <div class="card-wrap">
+              <img
+              src="./img/shapes/points3.svg"
+              alt=""
+              class="points points1 points-sq">
+
+            <div class="card" data-card="UI/UX">
+              <div class="card-content z-index">
+                <img src="./img/design-icon.svg" class="icon" alt="servicio ui/ux">
+
+                <h3 class="title-sm">Diseño WEB</h3>
+                <p class="texto">
+                  Planificación, diseño, implementación y mantenimiento de sitios web.
+                </p>
+                <a href="#" class="btn small">Ver más</a>
+              </div>
+            </div>  
+            </div>
+            <div class="card-wrap">
+              <div class="card" data-card="Code">
+                <div class="card-content z-index">
+                  <img src="./img/code-icon.svg" class="icon" alt="" />
+                  <h3 class="title-sm">Desarrollo WEB</h3>
+                  <p class="text">
+                    Creacion de tu sitio web, aplicación o software segun tus necesidades.
+                  </p>
+                  <a href="#" class="btn small">Ver más</a>
+                </div>
+              </div>
+            </div>
+            <div class="card-wrap">
+              <img
+                src="./img/shapes/points3.svg"
+                class="points points2 points-sq"
+                alt=""/>
+              <div class="card" data-card="App">
+                <div class="card-content z-index">
+                  <img src="./img/app-icon.svg" class="icon" alt="" />
+                  <h3 class="title-sm">Desarrollo de Apps</h3>
+                  <p class="text">
+                    Recopilamos toda tu información y la unificamos en una app que cumpla con tus necesidades.
+                  </p>
+                  <a href="#" class="btn small">Ver más</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+       <!-- Sección de proyectos -->
+
+       <section class="portfolio section" id="portfolio">
+        <div class="background-bg">
+          <div class="overlay overlay-sm">
+            <img
+              src="./img/shapes/half-circle.svg"
+              class="shape half-circle1"
+              alt=""
+            />
+            <img
+              src="./img/shapes/half-circle.svg"
+              class="shape half-circle2"
+              alt=""
+            />
+            <img src="./img/shapes/square.svg" class="shape square" alt="" />
+            <img src="./img/shapes/wave.svg" class="shape wave" alt="" />
+            <img src="./img/shapes/circle.svg" class="shape circle" alt="" />
+            <img
+              src="./img/shapes/triangle.svg"
+              class="shape triangle"
+              alt=""
+            />
+            <img src="./img/shapes/x.svg" class="shape xshape" alt="" />
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="Mis proyectos">Portafolio</h3>
+          </div>
+
+          <div class="section-body">
+            <div class="filter button-group">
+              <button class="filter-btn active" data-filter="*">Todo</button>
+              <button class="filter-btn" data-filter=".ui">UI/UX</button>
+              <button class="filter-btn" data-filter=".webdev">WEB</button>
+              <button class="filter-btn" data-filter=".appdev">Apps</button>
+              <button class="filter-btn" data-filter=".logo-design">
+                Diseño
+              </button>
+            </div>
+
+            <div class="grid">
+              <div class="grid-item logo-design">
+                <div class="gallery-image">
+                  <img src="./img/pngegg (1).png" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Diseño de Logo</h3>
+                      <h5>Ver demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item webdev">
+                <div class="gallery-image">
+                  <img src="./img/pngegg (2).png" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Desarrollo WEB</h3>
+                      <h5>Ver demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item ui webdev">
+                <div class="gallery-image">
+                  <img src="./img/pngegg (3).png" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Diseño WEB</h3>
+                      <h5>Ver demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item ui">
+                <div class="gallery-image">
+                  <img src="./img/pngegg (4).png" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Diseño UI / UX</h3>
+                      <h5>Ver demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item logo-design">
+                <div class="gallery-image">
+                  <img src="./img/pngegg (5).png" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Diseño de Logo</h3>
+                      <h5>Ver demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item appdev">
+                <div class="gallery-image">
+                  <img src="./img/pngegg (6).png" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Desarrollo de Apps</h3>
+                      <h5>Ver demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item logo-design">
+                <div class="gallery-image">
+                  <img src="./img/pngegg (7).png" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Diseño de Logo</h3>
+                      <h5>Ver demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item appdev ui">
+                <div class="gallery-image">
+                  <img src="./img/pngegg (8).png" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Desarrollo de Apps</h3>
+                      <h5>Ver demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item ui webdev">
+                <div class="gallery-image">
+                  <img src="./img/pngegg.png" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Diseño WEB</h3>
+                      <h5>Ver demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="more-folio">
+              <a href="#" class="btn">Mas proyectos</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+           <!-- Sección blog y testimonios -->
+
+           <section class="blog section">
+            <div class="container">
+              <div class="section-header">
+                <h3 class="title" data-title="Últimos post">Mi Blog</h3>
+                <p class="text">
+                  Aqui podrás encontrar temas de interés sobra la programación y desarrollo web.
+                </p>
+              </div>
+    
+              <div class="blog-wrapper">
+                <div class="blog-wrap">
+                  <img
+                    src="./img/shapes/points3.svg"
+                    alt=""
+                    class="points points-sq"
+                  />
+    
+                  <div class="blog-card">
+                    <div class="blog-image">
+                      <img src="./img/kisspng-types-and-programming-languages-computer-programmi-programming-language-5b0d9e5b692cd5.7895282615276191634308.png" alt="" />
+                    </div>
+    
+                    <div class="blog-content">
+                      <div class="blog-info">
+                        <h5 class="blog-date">Marzo, 19 2023</h5>
+                        <h5 class="blog-user"><i class="fas fa-user"></i>Admin</h5>
+                      </div>
+                      <h3 class="title-sm">Que es la programación</h3>
+                      <p class="blog-text">
+                        Son instrucciones consecutivas y ordenadas que llevan a la computadora a ejecutar una tarea específica.
+                      </p>
+                      <a href="#" class="btn small">Leer más</a>
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="blog-wrap">
+                  <div class="blog-card">
+                    <div class="blog-image">
+                      <img src="./img/kisspng-web-development-iphone-mobile-app-development-web-web-development-5ac2d72a17e764.2561390515227185060979.png" alt="" />
+                    </div>
+    
+                    <div class="blog-content">
+                      <div class="blog-info">
+                        <h5 class="blog-date">Agosto, 10 2022</h5>
+                        <h5 class="blog-user"><i class="fas fa-user"></i>Admin</h5>
+                      </div>
+                      <h3 class="title-sm">Que es el desarrollo web</h3>
+                      <p class="blog-text">
+                        Proceso de creación de un sitio web que sea funcional en internet, a traves de diferentes lenguajes de programación.
+                      </p>
+                      <a href="#" class="btn small">Leer más</a>
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="blog-wrap">
+                  <div class="blog-card">
+                    <div class="blog-image">
+                      <img src="./img/kisspng-vector-iphone-6-plus-iphone-8-computer-icons-apps-5ab9ed622adff4.7306944715221343701756.png" alt="" />
+                    </div>
+    
+                    <div class="blog-content">
+                      <div class="blog-info">
+                        <h5 class="blog-date">December, 12 2021</h5>
+                        <h5 class="blog-user"><i class="fas fa-user"></i>Admin</h5>
+                      </div>
+                      <h3 class="title-sm">Que es la App</h3>
+                      <p class="blog-text">
+                        La abreviatura app es una aplicación informática para dispositivos moviles, dispositivos inteligentes, tablets y otros dispositivos móviles.
+                      </p>
+                      <a href="#" class="btn small">Leer más</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+    
+          <section class="testimonials section" id="testimonials">
+            <div class="container">
+              <div class="section-header">
+                <h3 class="title" data-title="Qué dicen de nosotros">
+                  Testimonios
+                </h3>
+              </div>
+    
+              <div class="testi-content grid-2">
+                <div class="column-1 reviews">
+                  <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide review">
+                        <i class="fas fa-quote-left quote"></i>
+                        <div class="rate">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </div>
+    
+                        <p class="review-text">
+                          Excelente persona, muy servicial, sabe entender las necesidades de los clientes.
+                        </p>
+    
+                        <div class="review-info">
+                          <h3 class="review-name">Juan Gonzalo</h3>
+                          <h5 class="review-job">Empresario, Bogotá</h5>
+                        </div>
+                      </div>
+    
+                      <div class="swiper-slide review">
+                        <i class="fas fa-quote-left quote"></i>
+                        <div class="rate">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </div>
+    
+                        <p class="review-text">
+                          Supo entender lo que yo quería hacer para mi negocio y lo supo plasmar en una pagina web. Recomendado 100%
+                        </p>
+    
+                        <div class="review-info">
+                          <h3 class="review-name">Lucia Giraldo</h3>
+                          <h5 class="review-job">CEO, Los Giraldo</h5>
+                        </div>
+                      </div>
+    
+                      <div class="swiper-slide review">
+                        <i class="fas fa-quote-left quote"></i>
+                        <div class="rate">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </div>
+    
+                        <p class="review-text">
+                          Entrega a tiempo, eficiente, da mas allá de lo que le pedí. Agradecida contigo.
+                        </p>
+    
+                        <div class="review-info">
+                          <h3 class="review-name">Paola Jaramillo</h3>
+                          <h5 class="review-job">Directora Ejecutiva, Bogota</h5>
+                        </div>
+                      </div>
+    
+                      <div class="swiper-slide review">
+                        <i class="fas fa-quote-left quote"></i>
+                        <div class="rate">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </div>
+    
+                        <p class="review-text">
+                          Muy buen servicio, atenta en todo momento, me entregó el trabajo a tiempo.
+                        </p>
+    
+                        <div class="review-info">
+                          <h3 class="review-name">Luis Gonzalez</h3>
+                          <h5 class="review-job">CEO, Cartagena</h5>
+                        </div>
+                      </div>
+                    </div>
+    
+                    <div class="review-nav swiper-button-prev">
+                      <i class="fas fa-long-arrow-alt-left"></i>
+                    </div>
+                    <div class="review-nav swiper-button-next">
+                      <i class="fas fa-long-arrow-alt-right"></i>
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="column-2 image">
+                  <img src="./img/testi.svg" alt="" class="img-element" />
+                </div>
+              </div>
+            </div>
+          </section>
+
+      <!-- Sección acerca de y métricas -->
+
+      <section class="about section" id="about">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="Quien soy yo">Acerca de</h3>
+          </div>
+
+          <div class="section-body grid-2">
+            <div class="column-1">
+              <h3 class="title-sm">Hola, Yo soy Liseth Herazo</h3>
+              <p class="text">
+                10 años desarrollando proyectos web con especialización en diseño y programación de paginas web. Somos un equipo eficiente, entendemos tus necesidad, deja tus trabajos en las mejores manos.
+              </p>
+              <div class="skills">
+                <div class="skill html">
+                  <h3 class="skill-title">HTML</h3>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="90%"></div>
+                  </div>
+                </div>
+                <div class="skill css">
+                  <h3 class="skill-title">CSS</h3>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="70%"></div>
+                  </div>
+                </div>
+                <div class="skill js">
+                  <h3 class="skill-title">JavaScript</h3>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="80%"></div>
+                  </div>
+                </div>
+              </div>
+              <a href="#" class="btn">Ver más</a>
+            </div>
+
+            <div class="column-2 image">
+              <img src="./img/shapes/points4.svg" class="points" alt="" />
+              <img src="./img/WhatsApp Image 2023-07-17 at 7.07.13 PM-PhotoRoom.png-PhotoRoom.png" class="z-index" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="records">
+        <div class="overlay overlay-sm">
+          <img src="./img/shapes/square.svg" alt="" class="shape square1" />
+          <img src="./img/shapes/square.svg" alt="" class="shape square2" />
+          <img src="./img/shapes/circle.svg" alt="" class="shape circle" />
+          <img
+            src="./img/shapes/half-circle.svg"
+            alt=""
+            class="shape half-circle"
+          />
+          <img src="./img/shapes/wave.svg" alt="" class="shape wave wave1" />
+          <img src="./img/shapes/wave.svg" alt="" class="shape wave wave2" />
+          <img src="./img/shapes/x.svg" alt="" class="shape xshape" />
+          <img src="./img/shapes/triangle.svg" alt="" class="shape triangle" />
+        </div>
+
+        <div class="container">
+          <div class="wrap">
+            <div class="record-circle">
+              <h2 class="number" data-num="235">150</h2>
+              <h4 class="sub-title">Proyectos</h4>
+            </div>
+          </div>
+
+          <div class="wrap">
+            <div class="record-circle active">
+              <h2 class="number" data-num="174">200</h2>
+              <h4 class="sub-title">Clientes</h4>
+            </div>
+          </div>
+
+          <div class="wrap">
+            <div class="record-circle">
+              <h2 class="number" data-num="20">10</h2>
+              <h4 class="sub-title">Años de Experiencia</h4>
+            </div>
+          </div>
+
+          <div class="wrap">
+            <div class="record-circle">
+              <h2 class="number" data-num="50">15</h2>
+              <h4 class="sub-title">Premios</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección de contacto -->
+
+      <section class="contact" id="contact">
+        <iframe
+          src="https://www.google.com/maps/d/embed?mid=1n1xkVnjDux1ZskTtbIj7nyeZdUI&msa=0&hl=en&ie=UTF8&t=m&ll=10.42484500000001%2C-75.54830100000001&spn=0.014772%2C0.018239&z=15&output=embed"
+          width="100%"
+          height="350"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <div class="container">
+          <div class="contact-box">
+            <div class="contact-info">
+              <h3 class="title">Ponte en contacto</h3>
+              <p class="text">
+                Atendemos de lunes a sabado de 8 am a 5 pm
+              </p>
+              <div class="information-wrap">
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </div>
+                  <p class="info-text">Cartagena. Colombia</p>
+                </div>
+
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-paper-plane"></i>
+                  </div>
+                  <p class="info-text">liseth1@hotmail.com</p>
+                </div>
+
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-phone-alt"></i>
+                  </div>
+                  <p class="info-text">+57 3185674953</p>
+                </div>
+              </div>
+            </div>
+
+            <form class="contact-form">
+              <h3 class="title">Contáctame</h3>
+              <div class="row">
+                <input type="text" class="contact-input" placeholder="Nombre" />
+                <input
+                  type="text"
+                  class="contact-input"
+                  placeholder="Apellido"
+                />
+              </div>
+
+              <div class="row">
+                <input
+                  type="text"
+                  class="contact-input"
+                  placeholder="Celular"
+                />
+                <input type="email" class="contact-input" placeholder="Email" />
+              </div>
+
+              <div class="row">
+                <textarea
+                  name="message"
+                  class="contact-input textarea"
+                  placeholder="Mensaje"
+                ></textarea>
+              </div>
+              <a href="#" class="btn">Enviar</a>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="hireme" id="hireme">
+        <div class="container">
+          <h3 class="title">Hablemos de tu proyecto</h3>
+          <p class="text">
+            Especificanos todas tus inquietudes y necesidades y nosotros te ayudaremos! Escribenos y pronto te responderemos.
+          </p>
+          <a href="https://wa.me/+573008852810" target="_blank" class="btn"
+            >WhatsApp</a
+            >
+          </div>
+        </section>
+    </main>
+
+     <!-- Sección pie de página -->
+
+     <footer class="footer">
+      <div class="container">
+        <div class="grid-4">
+          <div class="grid-4-col footer-about">
+            <h3 class="title-sm">Acerca de</h3>
+            <p class="text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+              officiis quo officia quia?
+            </p>
+          </div>
+
+          <div class="grid-4-col footer-links">
+            <h3 class="title-sm">Links</h3>
+            <ul>
+              <li>
+                <a href="#services">Servicios</a>
+              </li>
+              <li>
+                <a href="#portfolio">Portafolio</a>
+              </li>
+              <li>
+                <a href="#about">Acerca de</a>
+              </li>
+              <li>
+                <a href="#testimonials">Testimonios</a>
+              </li>
+              <li>
+                <a href="#contact">Contacto</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="grid-4-col footer-links">
+            <h3 class="title-sm">Servicios</h3>
+            <ul>
+              <li>
+                <a href="#">Diseño WEB</a>
+              </li>
+              <li>
+                <a href="#">Desarrollo WEB</a>
+              </li>
+              <li>
+                <a href="#">Diseño de Apps</a>
+              </li>
+              <li>
+                <a href="#">Marketing</a>
+              </li>
+              <li>
+                <a href="#">Diseño UI/UX</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="grid-4-col footer-newstletter">
+            <h3 class="title-sm">Suscríbete</h3>
+            <p class="text">
+              Lorem ipsum dolor, sit amet ipsum dolor sit amet.
+            </p>
+            <div class="footer-input-wrap">
+              <input type="email" class="footer-input" placeholder="Email" />
+              <a href="#" class="input-arrow">
+                <i class="fas fa-angle-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom-footer">
+          <div class="copyright">
+            <p class="text">
+              Copyright&copy;2023 Todos los derechos reservados | Hecho por
+              <span class="split-text" data-text="FORUM"
+                ><a href="#"> Mauricio Muñoz </a></span
+              >
+            </p>
+          </div>
+
+          <div class="followme-wrap">
+            <div class="followme">
+              <h3>Sígueme</h3>
+              <span class="footer-line"></span>
+              <div class="social-media">
+                <a href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="back-btn-wrap">
+              <a href="#" class="back-btn">
+                <i class="fas fa-chevron-up"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
